@@ -2,7 +2,7 @@ name: Output Information
 on: issues
 jobs:
   info:
-  runs-on: ubunto-latest
+  runs-on: ubuntu-latest
   steps:
     - name: Output GitHub
     - run: echo "${{ toJSON(github) }}"
